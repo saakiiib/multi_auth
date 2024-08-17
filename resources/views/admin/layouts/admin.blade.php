@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="{{ asset('assets/admin/datatables/dataTables.bootstrap4.min.css')}}">
   <link rel="stylesheet" href="{{ asset('assets/admin/datatables-responsive/css/responsive.bootstrap4.min.css')}}">
   <link rel="stylesheet" href="{{ asset('assets/admin/datatables-buttons/css/buttons.bootstrap4.min.css')}}">
+  <link rel="stylesheet" href="{{ asset('assets/admin/summernote/summernote-bs4.min.css')}}">
   
 
 
@@ -144,8 +145,8 @@
 <script src="{{ asset('assets/admin/datatables-buttons/js/buttons.print.min.js')}}"></script>
 <script src="{{ asset('assets/admin/datatables-buttons/js/buttons.colVis.min.js')}}"></script>
 <script src="{{ asset('assets/admin/js/sweetalert.min.js')}}"></script>
+<script src="{{ asset('assets/admin/summernote/summernote.min.js')}}"></script>
 <script>
-  // page schroll top
   function pagetop() {
           window.scrollTo({
               top: 130,
